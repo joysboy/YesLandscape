@@ -1,6 +1,10 @@
 # Header
 menu:
   Home: /
+  About: /about
+  About Me: /about-me
+  Guest Book: /guestbook
+  Contact Me: /contact
   Archives: /archives
 rss: /atom.xml
 
@@ -9,20 +13,21 @@ excerpt_link: Read More
 fancybox: true
 
 # Sidebar
-sidebar: left
+sidebar: right
 widgets:
 - category
-- recent_posts
 - tagcloud
-- links
+- recent_posts
+- hot_comments
+# - links
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+twitter: 
 google_plus:
 fb_admins:
 fb_app_id:
 
 #duoshuo
-duoshuo: 
+duoshuo: xfeng

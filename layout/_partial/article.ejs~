@@ -3,7 +3,6 @@
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
     <%- partial('post/category') %>
 <% if (!index){ %>
-<div class="rdbWrapper" style="float:left;position:relative;bottom:6px;" data-version="1" data-orientation="0" data-show-email="0" data-show-print="0" data-show-send-to-kindle="1" data-show-read-later="0" data-show-read-now="0"></div>
 <% } %>
   </div>
   <div class="article-inner">
